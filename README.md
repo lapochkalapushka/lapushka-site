@@ -24,18 +24,18 @@ https://github.com/lapochkalapushka/lapushka-site
 
 ## Cloudflare Pages
 
-Первая публикация выполнена 4 ноября 2026 года. Проект Cloudflare: `lapushka`.
+Первая публикация выполнена 4 ноября 2026 года. Проект Cloudflare: `lapushka-lapochka`.
 
-- Главная: https://lapushka-f5w.pages.dev/
-- Страница Хармса: https://lapushka-f5w.pages.dev/harms/
+- Главная: https://lapushka-lapochka.pages.dev/
+- Страница Хармса: https://lapushka-lapochka.pages.dev/harms/
 
-Cloudflare автоматически присвоил поддомен с суффиксом `-f5w`. Окончательный адрес для печатного QR-кода ещё нужно выбрать и утвердить.
+Основной адрес проекта: `lapushka-lapochka.pages.dev`. QR-код книги ведёт на `https://lapushka-lapochka.pages.dev/harms/`.
 
-Проект подключён к `lapochkalapushka/lapushka-site`. Изменения в `main` автоматически публикуются. Предварительные публикации других веток и комментарии в pull request отключены.
+Проект подключён к `lapochkalapushka/lapushka-site`. Изменения в `main` автоматически публикуются. Предварительные публикации других веток и комментарии в pull request включены.
 
 | Поле | Значение |
 | --- | --- |
-| Project name | `lapushka` |
+| Project name | `lapushka-lapochka` |
 | Production branch | `main` |
 | Framework preset | `None` |
 | Build command | `exit 0` |
