@@ -24,24 +24,25 @@ https://github.com/lapochkalapushka/lapushka-site
 
 ## Cloudflare Pages
 
-После загрузки файлов в GitHub:
+Первая публикация выполнена 4 ноября 2026 года. Проект Cloudflare: `lapushka`.
 
-1. В Cloudflare открыть Workers & Pages → Create application → Pages → Import an existing Git repository.
-2. Подключить GitHub-аккаунт `lapochkalapushka` и выбрать `lapushka-site`.
-3. Использовать настройки:
+- Главная: https://lapushka-f5w.pages.dev/
+- Страница Хармса: https://lapushka-f5w.pages.dev/harms/
+
+Cloudflare автоматически присвоил поддомен с суффиксом `-f5w`. Окончательный адрес для печатного QR-кода ещё нужно выбрать и утвердить.
+
+Проект подключён к `lapochkalapushka/lapushka-site`. Изменения в `main` автоматически публикуются. Предварительные публикации других веток и комментарии в pull request отключены.
 
 | Поле | Значение |
 | --- | --- |
-| Project name | `lapushka`, если свободно |
+| Project name | `lapushka` |
 | Production branch | `main` |
 | Framework preset | `None` |
 | Build command | `exit 0` |
 | Build output directory | `public` |
-| Root directory | корень репозитория (поле оставить пустым) |
+| Root directory | корень репозитория |
 
-4. Выполнить Save and Deploy. Проверить `/`, `/harms/` и неизвестный адрес (ответ 404).
-
-Доступность `lapushka.pages.dev` пока не подтверждена. Использовать адрес в QR-коде только после успешной публикации и проверки. Путь `/harms/` сохранять при дальнейшем наполнении сайта.
+После изменения сайта проверить `/`, `/harms/` и страницу для неизвестного адреса. Путь `/harms/` сохранять при дальнейшем наполнении сайта.
 
 Официальная инструкция: https://developers.cloudflare.com/pages/framework-guides/deploy-anything/
 
